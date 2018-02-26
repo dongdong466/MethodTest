@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="smsSend">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../SMSSend/lib/fastjson-1.2.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SMSSend/lib/gson-2.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
