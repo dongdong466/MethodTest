@@ -43,7 +43,15 @@ public class Main {
         // C:\Users\XS-021\Downloads\tunnelSignature.xls
 
 
+        // 读取文件
         //Test_file_reader();
+
+        // 汉字校验
+        //Test_chinese_verify();
+
+    }
+
+    private static void Test_chinese_verify(){
         String str = "qwertyuiop123;是";
         System.out.println(str.getBytes().length);
         System.out.println(str.length());
@@ -52,9 +60,7 @@ public class Main {
         }else{
             System.out.println("有汉字");
         }
-
     }
-
     private static  void Test_file_reader(){
         String pathString = "c:"+File.separator+"Users"+File.separator+"XS-021"+
                 File.separator+"Downloads"+File.separator+"tunnelSignature.txt";
